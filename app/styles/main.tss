@@ -1,0 +1,344 @@
+".basicWindow": {
+	backgroundColor:'#0097E0'
+}
+".whiteWindow": {
+	backgroundColor:'#FFF'
+}
+
+// tab1〜4
+".tab1": {
+	icon:'/images/tab_profile_list.jpg',
+	title:'さがす'
+}
+".tab2": {
+	icon:'/images/tab_contact_list.jpg',
+	title:'相手から'
+}
+".tab3": {
+	icon:'/images/tab_message_list.jpg',
+	title:'メッセージ'
+}
+".tab4": {
+	icon:'/images/tab_setting.jpg',
+	title:'設定'
+}
+
+// profileList
+".basicHeader": {
+	image:'/images/connextion_header_logo.png',
+	top:26,
+	width:170,
+	height:20
+}
+".mainView": {
+	backgroundColor:'#F5F5F4',
+	bottom:0,
+	height:460
+}
+".basicSubTitle": {
+    font: {
+        fontSize: "12",
+        fontFamily: "HiraKakuProN-W6",
+        fontWeight:"bold"
+    },
+    top:10
+}
+".profileTable": {
+	width: Ti.UI.FULL,
+    height: Ti.UI.FULL,
+    backgroundColor: "#fff",
+    separatorColor: "#ccc",
+    left: 0,
+    top: 35
+}
+".profileRow": {
+	width: Ti.UI.FULL,
+	height: 100,
+	borderWidth: 0
+}
+".profilePhoto": {
+	width: 80,
+    height: 80,
+    top: 10,
+    left: 10,
+    borderRadius: 40,
+    image: "/images/sample.jpg"
+}
+".profileLabel": {
+	width: 210,
+    height: 20,
+    top: 10,
+    left: 100,
+    color: "#222",
+    font: {
+        fontSize: "16",
+        fontFamily: "HiraKakuProN-W3"
+    }
+}
+".profileBalloon": {
+	width: 210,
+    height: 50,
+    top: 40,
+    left: 100,
+    borderRadius: 5,
+    // borderWidth: 1,
+    // borderColor: '#153F97',
+    // backgroundColor: '#FFF'
+    backgroundColor: '#D4E5EF'
+}
+".balloonLabel": {
+	width: 190,
+    height: 50,
+    left: 10,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+    color: "#222",
+    font: {
+        fontSize: "12",
+        fontFamily: "HiraKakuProN-W3"
+    }
+}
+".profileLink": {
+	width: Ti.UI.FULL,
+    height: 100,
+    top: 0,
+    left: 0
+}
+// chatList
+".chatTable": {
+	width: Ti.UI.FULL,
+    height: Ti.UI.FULL,
+    backgroundColor: "#fff",
+    separatorColor: "#ccc",
+    left: 0,
+    top: 0
+}
+".chatRow": {
+	width: Ti.UI.FULL,
+    height: 70,
+    borderWidth: 0
+}
+".chatPhoto": {
+	width: 50,
+    height: 50,
+    top: 10,
+    left: 10,
+    image: "/images/sample.jpg"
+}
+".chatLabel": {
+	width: 170,
+    height: 20,
+    top: 10,
+    left: 80,
+    color: "#222",
+    font: {
+        fontSize: "16",
+        fontFamily: "HiraKakuProN-W3"
+    }
+}
+".chatMessage": {
+	width: 170,
+    height: 20,
+    top: 30,
+    left: 80,
+    color: "#CCC",
+    font: {
+        fontSize: "12",
+        fontFamily: "HiraKakuProN-W3"
+    }
+}
+".chatLink": {
+	width: Ti.UI.FULL,
+    height: 70,
+    top: 0,
+    left: 0
+}
+// settingList
+".myProfileHeader": {
+	top:35,
+	width:Ti.UI.FULL,
+	height:71,
+	backgroundColor:"#FBFBFB"
+}
+".myImage": {
+	height:55,
+	width:55,
+	top:8,
+	left:8,
+	borderRadius:8
+}
+".myImageButton": {
+	image:"/images/camera_button.png",
+	height:55,
+	width:55,
+	top:8,
+	left:8
+}
+".myProfileLabel": {
+	font: {
+        fontSize: "22",
+        fontFamily: "HiraKakuProN-W6"
+	},
+	top:16,
+	left:71,
+	width:241,
+	height:22
+}
+".myProfileRole": {
+	font: {
+        fontSize: "12",
+        fontFamily: "HiraKakuProN-W3"
+	},
+	top:46,
+	left:71,
+	width:241,
+	color:"#666"
+}
+".settingTable": {
+	width: Ti.UI.FULL,
+    height: Ti.UI.FULL,
+    backgroundColor:"#fff",
+    separatorColor:"#ccc",
+    left: 0,
+    top: 106
+}
+".settingRow": {
+	width: Ti.UI.FULL,
+    height: 45,
+    borderWidth: 0
+}
+".settingLabel": {
+	font: {
+        fontSize: "15",
+        fontFamily: "HiraKakuProN-W3"
+	},
+    left:13,
+    height:15
+}
+".rightIcon": {
+	right:13,
+	center:{y:"50%"},
+	image:"/images/right_icon.png",
+	width:13
+}
+".backButton": {
+	text:"< Back",
+	color:"#FFF",
+	font:{
+		fontSize: "16",
+		fontFamily: "HiraKakuProN-W3"
+	},
+	top:28,
+	left:10
+}
+".nicknameDialog":{
+	title: 'エラー',
+    message: 'ニックネームは2文字以上が必要です！'
+}
+".doneButton": {
+	text:"Done",
+	color:"#FFF",
+	font:{
+		fontSize: "16",
+		fontFamily: "HiraKakuProN-W3"
+	},
+	top:28,
+	right:15
+}
+".subView": {
+	backgroundColor:'#F5F5F4',
+	bottom:0,
+	height:510
+}
+".contentView": {
+	backgroundColor:'#FBFBFB',
+	bottom:0,
+	height:480
+}
+".catchLabel": {
+    font: {
+        fontSize: "13",
+        fontFamily: "HiraKakuProN-W3"
+    },
+    textAlign:"center",
+    color:"#FF0000"
+}
+".nicknameField": {
+	width: "90%",
+	height: "45",
+	borderColor:"#B5B5B6",
+	borderWidth:1,
+	borderRadius:10,
+	backgroundColor:"#FFF",
+	top:20,
+	font: {
+        fontSize: "17",
+        fontFamily: "HiraKakuProN-W3"
+	},
+	keyboardType: Ti.UI.KEYBOARD_DEFAULT,
+  	returnKeyType: Ti.UI.RETURNKEY_DEFAULT,
+  	hintText: "ニックネーム",
+  	paddingLeft:10
+}
+".introductionDialog1":{
+	title: 'エラー',
+    message: '自己紹介文を入力してください！'
+}
+".introductionDialog2":{
+	title: 'エラー',
+    message: '自己紹介文は140字以下です！'
+}
+".introductionArea": {
+	width: "90%",
+	height: "120",
+	borderColor:"#B5B5B6",
+	borderWidth:1,
+	borderRadius:10,
+	backgroundColor:"#FFF",
+	top:20,
+	font: {
+        fontSize: "17",
+        fontFamily: "HiraKakuProN-W3"
+	},
+	keyboardType: Ti.UI.KEYBOARD_DEFAULT,
+  	returnKeyType: Ti.UI.RETURNKEY_DEFAULT,
+  	hintText: "自己紹介文",
+  	paddingLeft:10
+}
+".residenceTable": {
+	width: "90%",
+	height:90,
+	borderColor:"#B5B5B6",
+	borderWidth:1,
+	backgroundColor:"#FFF",
+	top:35
+}
+".basicRow": {
+	height:45,
+	borderWidth:1,
+	borderColor:"#B5B5B6"
+}
+".selectLabel": {
+	font: {
+        fontSize: "15",
+        fontFamily: "HiraKakuProN-W3"
+	},
+    left:40
+}
+".bigIcon": {
+	left:5,
+	center:{y:"50%"},
+	width:26
+}
+".checkIcon": {
+	right:13,
+	center:{y:"50%"},
+	width:26
+}
+".birthplaceTable": {
+	width: "90%",
+	height:90,
+	borderColor:"#B5B5B6",
+	borderWidth:1,
+	backgroundColor:"#FFF",
+	top:35
+}
