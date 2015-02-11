@@ -82,6 +82,14 @@ exports.move = function() {
 	view1LabelGroup.add(view1Label3);
 	view1.add(view1LabelGroup);
 	
+	// view2
+	
+	// view3
+	
+	// view4
+	
+	// view5
+	
 	// 共通部分（フッター）	
 	var fbLoginLabel = $.UI.create('ImageView',{classes:"fbLoginLabel"});
 	fbLoginLabel.addEventListener('click', function(e) {

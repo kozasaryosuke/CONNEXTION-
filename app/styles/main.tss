@@ -1,10 +1,6 @@
 ".basicWindow": {
 	backgroundColor:'#0097E0'
 }
-".whiteWindow": {
-	backgroundColor:'#FFF'
-}
-
 // tab1〜4
 ".tab1": {
 	icon:'/images/tab_profile_list.jpg',
@@ -22,7 +18,6 @@
 	icon:'/images/tab_setting.jpg',
 	title:'設定'
 }
-
 // profileList
 ".basicHeader": {
 	image:'/images/connextion_header_logo.png',
@@ -32,8 +27,11 @@
 }
 ".mainView": {
 	backgroundColor:'#F5F5F4',
-	bottom:0,
-	height:460
+	top:56
+}
+".mainScrollView": {
+	backgroundColor:'#F5F5F4',
+	top:56
 }
 ".basicSubTitle": {
     font: {
@@ -81,9 +79,6 @@
     top: 40,
     left: 100,
     borderRadius: 5,
-    // borderWidth: 1,
-    // borderColor: '#153F97',
-    // backgroundColor: '#FFF'
     backgroundColor: '#D4E5EF'
 }
 ".balloonLabel": {
@@ -98,10 +93,91 @@
     }
 }
 ".profileLink": {
-	width: Ti.UI.FULL,
-    height: 100,
-    top: 0,
-    left: 0
+	width:Ti.UI.FULL,
+    height:100,
+    top:0,
+    left:0
+}
+// profileDetail
+".profileHeader": {
+	top:35,
+	height:320
+}
+".profileImage": {
+	height:320,
+	top:0
+}
+".profileIntroductionView": {
+	width:320,
+	bottom:0,
+	backgroundColor:'#D4E5EF',
+	opacity:0.7
+}
+".profileIntroductionLabel": {
+	width:300,
+	height:Ti.UI.SIZE,
+	top:10,
+	bottom:10,
+	left:10,
+	right:10,
+	font: {
+        fontSize:"12",
+        fontFamily: "HiraKakuProN-W3"
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+".profileSubView": {
+	top:365,
+	width:300,
+	height:"auto",
+	backgroundColor:"#FFF",
+	borderWidth:1,
+	borderColor:"#DDD",
+	borderRadius:10
+}
+".profileTableTitle": {
+	font: {
+        fontSize:"12",
+        fontFamily: "HiraKakuProN-W6",
+        fontWeight:"bold"
+    },
+    top:15,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:15,
+    text:"詳細プロフィール",
+    color:"#999"
+}
+".listTable": {
+    height: 150,
+    backgroundColor: "#fff",
+    separatorColor: "#ccc",
+    top:40
+}
+".answerLabel": {
+    font: {
+        fontSize: "15",
+        fontFamily: "HiraKakuProN-W3"
+	},
+    left:150,
+    right:13,
+    height:15,
+    color:"#00A0E9"
+}
+".talkDoneDialog":{
+	title: '話したい！を送りました',
+    message: '相手から「話したい！」が返ってくると\nメッセージのやり取りが可能になります'
+}
+".talkView":{
+	bottom:0,
+	backgroundColor: "#333",
+	opacity: 0.7,
+	height:70
+}
+".talkButton":{
+	bottom:10,
+	width:255,
+	height:50,
+	image:"/images/talk_button.png",
 }
 // chatList
 ".chatTable": {
@@ -212,7 +288,8 @@
         fontFamily: "HiraKakuProN-W3"
 	},
     left:13,
-    height:15
+    height:15,
+    color:"#3E3A39"
 }
 ".rightIcon": {
 	right:13,
