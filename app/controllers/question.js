@@ -158,7 +158,8 @@ exports.move = function() {
 									custom_fields: {
 										introduction: introduction, 
 										residence: residence,
-										birthplace: birthplace
+										birthplace: birthplace,
+										// birthday: "1983-07-31T15:00:00.000Z",
 									}
 								}, function (e) {
 									if (e.success) {

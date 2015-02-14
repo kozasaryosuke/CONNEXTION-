@@ -163,21 +163,19 @@
     height:15,
     color:"#00A0E9"
 }
-".talkDoneDialog":{
-	title: '話したい！を送りました',
-    message: '相手から「話したい！」が返ってくると\nメッセージのやり取りが可能になります'
-}
 ".talkView":{
 	bottom:0,
 	backgroundColor: "#333",
 	opacity: 0.7,
 	height:70
 }
+".talkDoneDialog":{
+	
+}
 ".talkButton":{
 	bottom:10,
 	width:255,
-	height:50,
-	image:"/images/talk_button.png",
+	height:50
 }
 // chatList
 ".chatTable": {
@@ -216,7 +214,7 @@
     height: 20,
     top: 30,
     left: 80,
-    color: "#CCC",
+    color: "#999",
     font: {
         fontSize: "12",
         fontFamily: "HiraKakuProN-W3"
@@ -227,6 +225,96 @@
     height: 70,
     top: 0,
     left: 0
+}
+// chatDetail
+".chatMessageTable": {
+	separatorStyle:0,
+	top:35,
+	backgroundColor:"#D1DEE5"
+}
+".messageRow": {
+	height:"auto"
+}
+".messageImage": {
+	top:5,
+	left:5,
+	width:35,
+	height:35
+}
+".messageLink": {
+	width:35,
+	height:35
+}
+".messageBalloon": {
+	borderRadius:10,
+	backgroundColor:"#FFF",
+	top:5,
+	left:48,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+}
+".myMessageBalloon": {
+	borderRadius:10,
+	backgroundColor:"#0D63A9",
+	top:5,
+	right:8,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+}
+".messageBalloonLabel": {
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	top:12,
+	bottom:12,
+	left:12,
+	right:12,
+	font: {
+        fontSize:"12",
+        fontFamily: "HiraKakuProN-W3"
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+".myMessageBalloonLabel": {
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	top:12,
+	bottom:12,
+	left:12,
+	right:12,
+	font: {
+        fontSize:"12",
+        fontFamily: "HiraKakuProN-W3"
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	color:"#FFF"
+}
+".messageFooterView": {
+	bottom:0,
+	backgroundColor:"#C2C1C1",
+	height:66
+}
+".messageTextArea": {
+	width: 257,
+	height: 50,
+	borderRadius:2,
+	backgroundColor:"#FFF",
+	left:8,
+	bottom:8,
+	font: {
+        fontSize: "12",
+        fontFamily: "HiraKakuProN-W3"
+	},
+	keyboardType: Ti.UI.KEYBOARD_DEFAULT,
+  	returnKeyType: Ti.UI.RETURNKEY_DEFAULT,
+  	hintText: "メッセージ",
+  	paddingLeft:12
+}
+".messageSendButton": {
+	image:"/images/send_button.png",
+	height:25,
+	width:39,
+	right:8,
+	bottom:8
 }
 // settingList
 ".myProfileHeader": {

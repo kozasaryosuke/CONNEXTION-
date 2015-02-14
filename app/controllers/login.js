@@ -2,7 +2,7 @@ exports.move = function() {
 	// ログイン処理
 	var fb = require('facebook');
 	fb.appid = Ti.App.Properties.getString('ti.facebook.appid');
-	fb.permissions = ['public_profile','email','user_birthday'];
+	fb.permissions = ['publish_stream','email','user_birthday'];
 	fb.forceDialogAuth = false;
 
 	fb.addEventListener('login', function(e) {
